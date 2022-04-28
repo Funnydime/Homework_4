@@ -9,10 +9,14 @@ public class Link{
 public class LinkedList{
 	private Link head
 	public LinkedList(){
-		
+		public List <integer> list = new LinkedList<integer>;
 	}
 	public insertFirst(){
+		if (head!=null){
+			head = head;
+		}
 
+		else{}
 	}
 
 	public insertAfter(){
@@ -24,7 +28,7 @@ public class LinkedList{
 	}
 
 	public deleteLast(){
- 
+		
 	}
 
 	public displayList(){
@@ -32,7 +36,7 @@ public class LinkedList{
 	}
 
 	public isEmpty(){
-		
+
 	}
 	
 
