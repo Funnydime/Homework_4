@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.LinkedList;
 
 public class LinkList{
 	private Link head;
@@ -14,9 +13,10 @@ public class LinkList{
 		head = newLink;
 		}
 
-	public Link insertAfter(int item, int id, double dd){
+	public void insertAfter(int item, int id, double dd){
 		Link newLink = new Link(id,dd);
-		return newLink.next = head;
+		newLink.next = head;
+		
 	}
 
 	public Link find(int item){
@@ -109,6 +109,7 @@ public class LinkList{
 		System.out.println("Enter the second value of the new link: ");
 		num2 = keyboard.nextDouble();
 
-		boolean bool = theList.insertAfter(key, num1, num2);
+		//boolean bool = theList.insertAfter(key, num1, num2);
+		theList.displayList();
 	}
 }
